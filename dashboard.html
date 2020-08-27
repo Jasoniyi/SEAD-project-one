@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="dashboard-wrapper">
+      <div class="dashboard-wrapper-left">
+        <div class="dashboard-wrapper-left-image">
+          <img src="./images/n4KewLKFOZw.svg" />
+          <h4>Thomas Ajegunle</h4>
+          <h5>Super Admin</h5>
+        </div>
+        <ul class="menu-list">
+          <a href="dashboard.html"
+            ><li><img src="./images/Vector (1).png" /> Dashboard</li></a
+          >
+          <a href="employees.html">
+            <li><img src="./images/Vector (2).png" />Employees</li></a
+          >
+          <li><img src="./images/salaryBreakdoown.svg" />Salary Breakdown</li>
+          <li><img src="./images/messaging.svg" />Messaging</li>
+        </ul>
+      </div>
+      <div class="dashboard-wrapper-right">
+        <div class="dashboard-wrapper-right-menu">
+          <div class="menu-icon">
+            <img src="images/Vector.png" />
+          </div>
+          <div class="menu-buttons">
+            <button type="button" class="btn btn-link">Edit Profile</button>
+            <a href="index.html">
+              <button type="button" class="btn btn-sign-out">
+                Sign Out
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="selected-menu">
+          <div class="selected-menu-icon">
+            <img src="./images/dashboard.svg" />
+          </div>
+          <div class="selected-menu-text">Dashboard</div>
+        </div>
+
+        <div class="dashboard-chart">
+          <div class="dashboard-chart-left">
+            <div class="chart-top">
+              <div class="chart-top-title">Sales</div>
+              <div class="chart-top-month">
+                <div class="btn-group">
+                  <button
+                    class="btn btn-secondary btn-sm dropdown-toggle"
+                    type="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    January
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Febuary</a>
+                    <a class="dropdown-item" href="#">March</a>
+                    <a class="dropdown-item" href="#">April</a>
+                    <a class="dropdown-item" href="#">May</a>
+                    <a class="dropdown-item" href="#">June</a>
+                    <a class="dropdown-item" href="#">July</a>
+                    <a class="dropdown-item" href="#">August</a>
+                    <a class="dropdown-item" href="#">September</a>
+                    <a class="dropdown-item" href="#">October</a>
+                    <a class="dropdown-item" href="#">November</a>
+                    <a class="dropdown-item" href="#">December</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="chart-middle"></div>
+            <div class="chart-bottom"><span>500,000</span></div>
+          </div>
+          <div class="dashboard-chart-right"></div>
+        </div>
+
+        <div class="dashboard-table">
+          <div class="dashboard-table-title">Job Completion Board</div>
+          <div class="dashboard-table-body">
+            <table class="table">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">Rating</th>
+                  <th scope="col">Firstname</th>
+                  <th scope="col">Surname</th>
+                  <th scope="col">Jobs Completed</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Sadiat</td>
+                  <td>Agunbade</td>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Kemi</td>
+                  <td>Adefarasin</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Chidinma</td>
+                  <td>Okafor</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Yetunde</td>
+                  <td>Muhammed</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Haisat</td>
+                  <td>Yusuf</td>
+                  <td>5</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

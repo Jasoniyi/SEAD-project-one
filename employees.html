@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="dashboard-wrapper">
+      <div class="dashboard-wrapper-left">
+        <div class="dashboard-wrapper-left-image">
+          <img src="./images/n4KewLKFOZw.svg" />
+          <h4>Thomas Ajegunle</h4>
+          <h5>Super Admin</h5>
+        </div>
+        <ul class="menu-list">
+          <a href="dashboard.html"
+            ><li><img src="./images/Vector (1).png" /> Dashboard</li></a
+          >
+          <a href="employees.html">
+            <li><img src="./images/Vector (2).png" />Employees</li></a
+          >
+          <li><img src="./images/salaryBreakdoown.svg" />Salary Breakdown</li>
+          <li><img src="./images/messaging.svg" />Messaging</li>
+        </ul>
+      </div>
+      <div class="dashboard-wrapper-right">
+        <div class="dashboard-wrapper-right-menu">
+          <div class="menu-icon">
+            <img src="images/Vector.png" />
+          </div>
+          <div class="menu-buttons">
+            <button type="button" class="btn btn-link">Edit Profile</button>
+            <a href="index.html">
+              <button type="button" class="btn btn-sign-out">
+                Sign Out
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="selected-menu">
+          <div class="selected-menu-icon">
+            <img src="./images/employees.svg" />
+          </div>
+          <div class="selected-menu-text">Employees</div>
+        </div>
+
+        <div class="employees-bckColor">
+          <div class="employee-wrapper">
+            <div class="employee-text">Employees List</div>
+            <div class="employee-input">
+              <div class="employee-inputfield">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="search for an employee"
+                />
+              </div>
+              <div class="employee-btn">
+                <button
+                  type="button"
+                  class="btn btn-primary createEmployee-btn"
+                >
+                  Create New Employee
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="dashboard-table">
+            <div class="dashboard-table-body">
+              <table class="table">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">FIRSTNAME</th>
+                    <th scope="col">LASTNAME</th>
+                    <th scope="col">TITLE</th>
+                    <th scope="col">CREATED ON</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Oluwakemi</td>
+                    <td>Adedunmola</td>
+                    <td>Nail technican</td>
+                    <td>25-Sept-2017</td>
+                    <td class="action">Manage</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Nkechi</td>
+                    <td>Amadohia</td>
+                    <td>Hair Dresser</td>
+                    <td>2-Dec-2017</td>
+                    <td class="action">Manage</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Femi</td>
+                    <td>Ogunlade</td>
+                    <td>Hair Dresser</td>
+                    <td>6-Nov-2017</td>
+                    <td class="action">Manage</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Suliyat</td>
+                    <td>Adedoyin</td>
+                    <td>Helper</td>
+                    <td>25-Feb-2017</td>
+                    <td class="action">Manage</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Hadiza</td>
+                    <td>Abuduraman</td>
+                    <td>Apprentice</td>
+                    <td>29-Dec-2017</td>
+                    <td class="action">Manage</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Samuel</td>
+                    <td>Nnamdi</td>
+                    <td>Nail technican</td>
+                    <td>25-Sept-2017</td>
+                    <td class="action">Manage</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Abass</td>
+                    <td>Odunkoya</td>
+                    <td>store manager</td>
+                    <td>25-Feb-2017</td>
+                    <td class="action">Manage</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chinenye</td>
+                    <td>Adedunmola</td>
+                    <td>Cleaner</td>
+                    <td>25-Sept-2017</td>
+                    <td class="action">Manage</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Junior</td>
+                    <td>Coddy</td>
+                    <td>Cleaner</td>
+                    <td>25-Sept-2017</td>
+                    <td class="action">Manage</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Oluwakemi</td>
+                    <td>Adedunmola</td>
+                    <td>Nail technican</td>
+                    <td>25-Sept-2017</td>
+                    <td class="action">Manage</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
